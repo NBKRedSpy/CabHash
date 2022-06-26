@@ -30,6 +30,7 @@ gci -Recurse -Directory -Hidden .git | %{
     cd $_.FullName
     cd ..\
     pwd | %{Write-Host -NoNewline $_.Path " "}
+    git.exe reset
     git.exe pull
     Write-Output ""
 }

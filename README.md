@@ -10,7 +10,7 @@ Additionally the script will also check common errors:
 * If the ModTek folder is not in the Mods directory.
 
 # Usage
-Copy the CabHash.ps1 from the (TODO: releases link here) to the Battletech\Mods folder.
+Copy the CabHash.ps1 from https://github.com/NBKRedSpy/CabHash/releases/ to the Battletech\Mods folder.
 
 ## Run The script
 Right click the script and choose "Run with PowerShell"
